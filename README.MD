@@ -6,7 +6,7 @@ You must write server and client programs to let users exchange messages. Each u
 
 Typing a message and hitting send should transmit the desired message to the server, which will in turn forward the message to any other client that is connected. The server should also print something to its screen such as: "Joe: Hi I just joined" indicating that a message was sent by the user Joe.
 
-Users should be able to change their name by sending the message "/name newName". This will cause all subsequent messages to be sent from the new name.
+**Optional Extra credit functionality:** Users should be able to change their name by sending the message "/name newName". This will cause all subsequent messages to be sent from the new name.
 
 ### Starter Code
 You have been provided starter code that not only sets up the basic GUI, but also has the initial communication primitives. The code uses Inner Classes to modularize the communication functions (Hint: this will be particularly helpful on the server side).
